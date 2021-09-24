@@ -60,6 +60,7 @@ hr {
     flex-direction: column;
     text-align: center;
     padding: 10% 16%;
+    align-items: center;
 }
 
 .section-2 h5 {
@@ -85,6 +86,14 @@ hr {
     line-height: 1.6;
 }
 
+@media (max-width: 740px) {
+    .btn {
+        /* width: 12vw; */
+        text-align: center;
+        word-break: keep-all;
+    }
+}
+
 .btn {
     -webkit-border-radius: 3;
     -moz-border-radius: 3;
@@ -93,9 +102,9 @@ hr {
     color: #ffffff;
     font-size: 0.75rem;
     background: #e71a23;
-    padding: 10px 20px 10px 20px;
+    padding: 2vw 3vw;
     text-decoration: none;
-    margin: 0.5rem 18rem;
+    margin: 2vw 10vw;
 }
 
 .btn:hover {
@@ -107,16 +116,16 @@ hr {
     padding: 0 10%;
 }
 
-.section-3 .div-box {
+.div-box {
     width: 50%;
 }
 
-.section-3 .div-box div {
+.div-box div {
     width: 100%;
     padding: 0 1rem 0 1rem;
 }
 
-.section-3 .div-box div img {
+.div-box div img {
     width: 100%;
 }
 
@@ -158,17 +167,20 @@ hr {
 .section-4 .col-4 {
     width: 45%;
     padding: 0 5%;
+    object-fit: contain;
+    margin: auto;
 }
 
 .section-4 .col-6 img {
     width: 100%;
     height: 100%;
     margin: 0;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .section-4 .col-4 h2 {
-    margin-top: 10rem;
+    margin: auto;
+    padding-top: 5vw;
     font-weight: 700;
     text-transform: uppercase;
     font-family: Roboto, sans-serif;
@@ -182,21 +194,22 @@ hr {
 }
 
 .section-4 p {
-    font-size: 1.125rem;
+    font-size: 1rem;
     word-wrap: break-word;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
 }
 
 .section-4 .btn4 {
+    width: 50%;
     -webkit-border-radius: 3;
     -moz-border-radius: 3;
     border-radius: 3px;
     font-family: Arial;
     color: #ffffff;
-    font-size: 1rem;
+    font-size: 1.5vw;
     background: #e71a23;
-    padding: 20px 30px 20px 30px;
+    padding: 2vw 3vw;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
@@ -204,4 +217,219 @@ hr {
 
 .section-5 {
     padding: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ourservices {
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin: 0 0 2rem 4rem;
+    font-family: Roboto, sans-serif;
+}
+
+.icon-parent-box {
+    margin: 0 5%;
+    display: flex;
+}
+
+.icon-box-heading {
+    font-weight: 700;
+    word-wrap: break-word;
+    position: relative;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-family: Roboto, sans-serif;
+}
+
+.icon-box {
+    width: 33.3%;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 1rem;
+    word-wrap: break-word;
+    position: relative;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 1.125rem;
+    font-style: italic;
+    margin: 20px 0 0;
+}
+
+.section-5-icons {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: #cc1a1a;
+}
+
+.section-6 {
+    background-color: #104e92;
+    text-align: center;
+    padding: 5% 10%;
+}
+
+.section-6 .col-1 {
+    width: 50%;
+    padding: 0 5rem;
+    margin: auto;
+}
+
+.section-6 h6 {
+    text-align: left;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.2;
+    font-family: Montserrat, sans-serif !important;
+    word-wrap: break-word;
+    position: relative;
+    color: #ffffff;
+}
+
+.section-6 h3 {
+    text-align: left;
+    letter-spacing: 2px;
+    object-fit: contain;
+    font-weight: bold;
+    font-size: 4.5vw;
+    line-height: 1.2;
+    font-family: Roboto, sans-serif;
+    word-wrap: break-word;
+    position: relative;
+    color: #ffffff;
+    margin: auto;
+}
+
+.img-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.row img {
+    width: 40%;
+    margin: 1vw;
+}
+
+.section-7 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.to-do {
+    font-weight: 700;
+    word-wrap: break-word;
+    position: relative;
+    font-family: Roboto, sans-serif;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    padding: 5vw 26vw 0;
+}
+
+.mission {
+    font-size: 1.875rem;
+    font-weight: 300;
+    padding: 4vw 26vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.to-do-btn {
+    display: flex;
+    padding: 0 20%;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.to-do-btn .btn {
+    margin: 1rem;
+}
+
+#two {
+    margin: 1rem;
+    background-color: #ffffff !important;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.grey-area-section {
+    width: 100%;
+    background-color: #333333;
+    color: white;
+}
+
+.grey-area-section .grey-area {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.grey-area .grey-area-text .sample-text {
+    margin: 49px auto;
+    font-size: 0.875rem;
+    word-wrap: break-word;
+}
+
+.grey-area .link {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 1em;
+    font-size: 0.8rem;
+    margin: 30px auto;
+}
+
+.link .real-link {
+    color: #abcff7;
+}
+
+.link .link-text {
+    margin: 0 5px;
+}
+
+@media screen and (max-width: 840px) {
+    .section-3 .div-box,
+    .div-box div {
+        width: 100%;
+        padding: 0;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .div-box div h2,
+    .div-box div p {
+        padding-left: 3rem;
+    }
+}
+
+@media (max-width: 840px) {
+    .section-3 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .section-4 .col-6 img {
+        width: 100%;
+        margin: 0;
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .section-4,
+    .icon-parent-box {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
 }
