@@ -38,6 +38,18 @@ hr {
     color: white;
 }
 
+.inside-icons {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    padding: 5%;
+}
+
+.inside-icons img {
+    width: 33.3%;
+    padding: 0 2rem 0 0;
+}
+
 .inside .text-1 {
     font-size: 5vw;
     letter-spacing: 3px;
@@ -450,6 +462,9 @@ hr {
         display: flex;
         flex-direction: column;
         align-items: left;
+    }
+    .inside-icons {
+        display: none;
     }
 }
 
