@@ -524,8 +524,8 @@ hr {
 }
 
 @media screen and (max-width: 760px) {
-    .inside {
-        width: 100%;
+    .inside .text-1 {
+        font-size: 4vw;
     }
     hr {
         width: 50vw;
@@ -534,5 +534,8 @@ hr {
     .section-1 img {
         width: 100%;
         object-position: 80% 0;
+    }
+    .section-4 .col-4 {
+        width: 90%;
     }
 }
